@@ -1,1 +1,10 @@
 [23-Jan-2025 07:08:50 UTC] WordPress database error Table 'local.wp_actionscheduler_actions' doesn't exist for query SHOW COLUMNS FROM wp_actionscheduler_actions LIKE 'priority' made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_Versions::initialize_latest_version, action_scheduler_initialize_3_dot_6_dot_3, ActionScheduler::init, do_action('action_scheduler_pre_init'), WP_Hook->do_action, WP_Hook->apply_filters, {closure}
+[27-Jan-2025 14:32:09 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[28-Jan-2025 03:58:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\User\Local Sites\wp-test-site\app\public\wp-content\plugins\elementor\modules\ai\module.php:341
+Stack trace:
+#0 C:\Users\User\Local Sites\wp-test-site\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\User\Local Sites\wp-test-site\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\User\Local Sites\wp-test-site\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\User\Local Sites\wp-test-site\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\User\Local Sites\wp-test-site\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 341
