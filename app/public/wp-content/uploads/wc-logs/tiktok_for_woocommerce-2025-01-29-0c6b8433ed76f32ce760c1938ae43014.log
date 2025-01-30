@@ -1,0 +1,47 @@
+2025-01-29T04:19:10+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_6799ac3ebf014httpequiestrianfootwearwp-admin","smb_name":"PROD","redirect_url":"http:\/\/equiestrianfootwear\/wp-admin\/"}
+ ajax: no
+2025-01-29T04:19:12+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 38
+X-Tt-Logid: 202501290419132C4B4C4474202F0680F4,202501290419132C4B4C4474202F0680F4
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 01ac623e89c11ab04394b636a5f1ce9f9cd74e74f3e00d0e3ede616d35b28551577bd21d391a3ca3566f4a1332796fd1025fe51fb55a018122a390e6444c63b615716835ca345490f60b930c0118c1cc501d411aac4bdaaaaefbc30666907da5febf3ddf6a31c81b85b13d5d0cb1a4f6b8
+x-tt-trace-id: 00-2501290419132C4B4C4474202F0680F4-75450D4747048902-00
+Server: TLB
+X-Origin-Response-Time: 78,184.51.193.159
+X-Akamai-Request-ID: b30eb65.11fa601
+Date: Wed, 29 Jan 2025 04:19:14 GMT
+X-Cache: TCP_MISS from a2-16-199-174.deploy.akamaitechnologies.com (AkamaiGHost/11.8.0-d1cc086c050e9ee88311d7bdff2a4a20) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a184-51-193-159.deploy.akamaitechnologies.com (AkamaiGHost/11.8.1-4626758e7fa58b73aefa05b51f5ad43e) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=304, origin; dur=78
+Server-Timing: inner; dur=41
+X-Parent-Response-Time: 380,2.16.199.174
+
+{"code":40000,"msg":"Parameter error"}
+
+2025-01-29T04:25:10+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-29T04:25:10+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-29T04:39:40+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2025-01-29T04:47:31+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-29T04:47:31+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-29T05:39:21+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2025-01-29T05:43:18+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2025-01-29T05:45:16+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2025-01-29T05:45:16+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2025-01-29T05:45:16+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2025-01-29T05:45:16+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2025-01-29T05:45:17+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2025-01-29T05:45:17+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2025-01-29T05:45:17+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2025-01-29T05:45:17+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2025-01-29T05:45:17+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2025-01-29T08:30:11+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-29T08:30:11+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2025-01-29T08:32:01+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2025-01-29T08:32:01+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
